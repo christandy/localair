@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+header {
+  height: calc(100px - 2em);
+  background: teal;
+  color: white;
+}
+
+.content {
+  height: calc(100% - 100px);
+}
+
+.map-page-container {
+  height: 100%;
+}
+
+.content, .map-page-container {
+  width: 100%;
+  display: block;
+}
+
+.query-sidenav, .results-sidenav { width: 300px; }
+
+header,
+.query-sidenav,
+.results-sidenav,
+.map-page-content {
+  padding: 1em;
+}
