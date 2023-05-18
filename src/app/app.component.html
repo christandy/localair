@@ -1,13 +1,15 @@
 <!-- Header -->
 <header class="toolbar" role="banner">
-    <span>LocalAir Header</span>
+    <h1 class="headerTitle">Local<strong>Air</strong></h1>
 </header>
 
 
 <div class="content" role="main">
     <mat-sidenav-container class="map-page-container">
         <mat-sidenav #queryToolsSidenav position="start" mode="side" opened class="query-sidenav">
-            Query Tools
+            <h2>Query Tools</h2>
+            <app-query-tools></app-query-tools>
+
         </mat-sidenav>
 
         <mat-sidenav-content class="map-page-content">

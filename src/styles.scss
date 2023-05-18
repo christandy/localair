@@ -7,13 +7,16 @@ body {
 }
 
 header {
-  height: calc(100px - 2em);
+  height: calc(60px - 2em);
   background: teal;
   color: white;
+  .headerTitle {
+    font-size: 2em;
+  }
 }
 
 .content {
-  height: calc(100% - 100px);
+  height: calc(100% - 60px);
 }
 
 .map-page-container {
